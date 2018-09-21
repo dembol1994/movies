@@ -12,8 +12,8 @@ export const Container = styled.div`
 
 export const Spacer = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
   
   @media screen and (min-width: 720px) {
     flex-direction: row;
@@ -51,6 +51,10 @@ export const Logo = styled.div`
 
 export const Links = styled.div`
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 `;
 
 export const StyledLink = styled.a`

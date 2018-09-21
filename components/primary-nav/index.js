@@ -8,10 +8,10 @@ export default () => (
   <Root>
     <Container>
       <Spacer>
-        <Logo>
-          Home
-        </Logo>
         <Links>
+          <Link href="/" passHref>
+            Home
+          </Link>
           <Link href="/movies" passHref>
             <StyledLink>
               Movies
